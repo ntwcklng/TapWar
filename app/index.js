@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  Text
+  Text,
+  View
 } from 'react-native';
 
 
@@ -14,7 +15,9 @@ const styles = StyleSheet.create({
 });
 
 export default class App extends Component {
-  return (
-    <Text>Hallo</Text>
-  );
+  render() {
+    return (
+      <View><Text>Hallo</Text></View>
+    );
+  }
 }
