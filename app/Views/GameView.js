@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
-  ScrollView,
   View,
   TouchableOpacity,
   Text,
@@ -9,7 +8,6 @@ import {
   Animated,
 } from 'react-native';
 
-import Tap from '../Components/Tap';
 
 const styles = StyleSheet.create({
   container: {
@@ -29,11 +27,6 @@ const styles = StyleSheet.create({
     color: 'rgba(255,255,255,.3)',
     alignSelf: 'center',
   },
-  hide: {
-    width: 0,
-    height: 0,
-  }
-
 });
 
 export default class GameView extends Component {
